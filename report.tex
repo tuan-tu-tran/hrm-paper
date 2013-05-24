@@ -42,7 +42,9 @@
 \end{titlepage}
 \restoregeometry
 
-\section*{Executive Summary}
+\pagenumbering{roman}
+\section*{Executive summary}
+\addcontentsline{toc}{section}{Executive summary}
 
 \begin{itemize}
   \item Sint Jan hospital is a public health care institution located in Brussels, which employs around 1200 people. Human Resources department is one of six existing in a hospital.
@@ -55,8 +57,11 @@
 
 \newpage
 
+\addcontentsline{toc}{section}{Contents}
 \tableofcontents
 \newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 \section{Introduction}
 
